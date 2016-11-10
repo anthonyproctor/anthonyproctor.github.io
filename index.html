@@ -1,7 +1,210 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Anthony Proctor - Portfolio - Web Developer</title>
+
+    <!-- Bootstrap -->
+    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="css/portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img alt="Brand" src="img/APlogo.png"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+      <!-- Header -->
+      <div class="jumbotron">
+        <div class="container custom-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <img src="./img/profile_anthony_proctor.jpg" class="img-responsive
+              img-circle img-thumbnail" alt="Anthony Proctor profile picture">
+              <h1>Anthony Proctor</h1>
+
+              <p>Web Design - UX/UI Designer - Front-End Developer </p>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.jumbotron -->
+
+      <!-- About Section -->
+      <section id="About" class="About">
+        <div class="container">
+          <div class="row">
+            <div class="page-header">
+              <h2>About</h2>
+            </div>
+            <div class="col-md-5 col-sm-6">
+              <p>
+                I'm Anthony Proctor, <strong>Web Developer</strong>, and focused
+                on <strong>Web Design</strong>, <strong>UX/UI</strong> and
+                <strong>Front-end Development</strong>.
+              </p>
+              <p>
+                I started out as an Engineering Technician in the Air National
+                Guard as an F16 Mechanic, and now transitioned into a web
+                developer and currently finishing my degree in Computer Science.
+                I'm a web developer with knowledge of <strong>HTML5</strong>,
+                and <strong>CSS3</strong>, <strong>Javascript</strong>,
+                <strong>Adobe Photoshop</strong>, <strong>Bootstrap</strong>,
+                and <strong>Responsive design</strong>.
+              </p>
+              <p>
+                Check out my work on <strong>GitHub</strong>, <strong>Behance</strong> and <strong>LinkedIn</strong>.
+              </p>
+            </div>
+            <div class="col-md-offset-1 col-md-6 col-sm-6">
+              <img class="aboutimg" src="./img/anthonyproctor.jpg" class="img-responsive"
+              alt="anthony proctor" />
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+
+      <!-- Portfolio -->
+      <section id="Work">
+        <div class="container">
+          <div class="row">
+            <div class="page-header">
+                <h2>Work</h2>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="./img/github.gif" alt="git hub logo">
+                <div class="caption">
+                  <h3 class="github"><a target="_blank" href="https://github.com/anthonyproctor">Github - Code</a></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="./img/behance.jpg" alt="behance logo">
+                <div class="caption">
+                  <h3><a target="_blank" href="https://www.behance.net/anthonyproctor">Behance - Web Design</a></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                <img src="./img/linkedin.png" alt="...">
+                <div class="caption">
+                  <h3><a target="_blank" href="https://www.linkedin.com/in/anthonyproctor">LinkedIn - Resume</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /#Work -->
+
+      <!-- Contact Form -->
+      <section id="Contact">
+        <div class="container">
+          <div class="page-header">
+              <h2>Contact</h2>
+          </div>
+
+          <form class="form-horizontal" method="post" role="form">
+          	<div class="form-group">
+          		<label for="email" class="col-sm-2 control-label">E-mail</label>
+          		<div class="col-sm-4">
+          			<input type="email" class="form-control" id="email" name="email" placeholder="E-mail Address" required>
+          		</div>
+          	</div>
+
+          	<div class="form-group">
+          		<label for="name" class="col-sm-2 control-label">Name</label>
+          		<div class="col-sm-4">
+          			<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+          		</div>
+          	</div>
+
+          	<div class="form-group">
+          		<label for="name" class="col-sm-2 control-label">Message</label>
+          		<div class="col-sm-6">
+          			<textarea id="message" name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+          		</div>
+          	</div>
+
+          	<div class="form-group">
+          		<div class="col-sm-offset-2 col-sm-6">
+          			<button type="submit" class="btn btn-primary">Send Message</button>
+          		</div>
+          	</div>
+          </form>
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /#Contact -->
+
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">
+            Anthony Proctor - Web Developer - <span class="glyphicon glyphicon-copyright-mark"></span> 2016
+          </span>
+        </div>
+
+      </footer>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="vendor/js/bootstrap.min.js"></script>
+  </body>
 </html>
